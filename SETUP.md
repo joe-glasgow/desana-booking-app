@@ -26,4 +26,10 @@
 
 `npm run deploy:local`
 
+### Minimum Notice and Timezone
+
+Change the following in `src/index.tsx` 
+
+    minimumNotice: 0, timeZone: "America/New_York"
+
 
