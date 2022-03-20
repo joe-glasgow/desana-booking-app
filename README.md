@@ -1,3 +1,5 @@
+### See [SETUP.md](./SETUP.md) for initial set up
+
 # Desana Task
 
 ## Background

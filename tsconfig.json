@@ -10,10 +10,15 @@
     "strictNullChecks": true,
     "target": "es2019",
     "sourceMap": true,
-    "lib": ["es2019"],
+    "lib": [
+      "es2019",
+      "dom"
+    ],
     "incremental": true,
     "resolveJsonModule": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["**/node_modules", "**/dist", "**/*.spec.ts"],
   "include": ["./src"]

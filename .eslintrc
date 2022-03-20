@@ -8,6 +8,9 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off"
+  },
   "env": {
     "node": true,
     "mocha": true
